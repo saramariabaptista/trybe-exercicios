@@ -21,3 +21,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 3: HTML & CSS
 
+- [ ] 3-1: _Estruturas de página_
+- [ ] 3-2: _Primeiros passos em CSS_
+- [ ] 3-3: _Seletores e posicionamentos_
+- [ ] 3-4: _HTML semântico_
