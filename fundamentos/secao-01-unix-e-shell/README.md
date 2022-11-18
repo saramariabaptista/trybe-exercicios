@@ -1,4 +1,4 @@
-# Seção - Unix e Bash
+# Seção - Unix & Bash
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 
