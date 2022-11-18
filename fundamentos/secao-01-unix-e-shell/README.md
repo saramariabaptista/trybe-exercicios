@@ -1,4 +1,4 @@
-# Seção - HTML E CSS
+# Seção - Unix e Bash
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 
