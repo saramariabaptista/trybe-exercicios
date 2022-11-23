@@ -1,0 +1,16 @@
+h1{
+  color:rgb(64, 79, 36);
+  text-align: center;
+}
+h3{
+  text-align:center;
+  color:rgb(97, 51, 24)
+}
+p{
+  text-align: center;
+  color: brown;
+}
+body{
+  line-height: 20px;
+  font-style: oblique;
+}
