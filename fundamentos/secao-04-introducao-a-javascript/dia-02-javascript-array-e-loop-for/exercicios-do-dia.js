@@ -9,9 +9,17 @@ for (let index=0; index<numbers.length; index +=1){
     console.log(numbers[index]);
 }  
 
-Some todos os valores contidos no array e imprima o resultado;
-
+Some todos os valores contidos no array e imprima o resultado; 
+let result=0;
 for (let index=0; index<numbers.length; index+=1){
-    console.log(numbers[index]+numbers[index]);
-}*/
+    result += numbers[index];
+} console.log(result)
 
+Calcule e imprima a média aritmética dos valores contidos no array;
+- A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos. */
+let sum=0;
+for (let index=0; index<numbers.length; index +=1){
+    sum += numbers[index];
+}
+let average= sum/numbers.length;
+console.log(average);
