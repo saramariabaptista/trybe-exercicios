@@ -22,4 +22,13 @@ for (let index=0; index<numbers.length; index +=1){
     sum += numbers[index];
 }
 let average= sum/numbers.length;
-console.log(average);
+
+/* Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”; */
+
+let mensagem =0;
+if (average >20){
+    mensagem= 'valor maior que 20'
+} if (average <= 20) {
+    mensagem= 'valor menor ou igual a 20'
+}
+console.log(mensagem);
