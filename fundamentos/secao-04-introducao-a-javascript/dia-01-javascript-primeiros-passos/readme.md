@@ -4,7 +4,7 @@ Neste dia é possivel ver os exercicios que demonstram meu conhecimento dos segu
 
 - [ ]  O que é o JavaScript (JS)?
 - [ ] De onde surgiu?
-- [ ]Qual o seu uso?  
+- [ ] Qual o seu uso?  
 - [ ] Variáveis
 - [ ] Constantes
 - [ ] Tipos primitivos

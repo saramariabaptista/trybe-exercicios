@@ -36,8 +36,7 @@ if (notaDoAluno >=80){
 } 
 else if (notaDoAluno >=80 && notaDoAluno >=60); {
     console.log("Você está na nossa lista de espera");
-} 	
-else {
+} else {
     console.log("Você está reprovada(o)");
 }
 
