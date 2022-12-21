@@ -33,7 +33,7 @@ for(let index = 0; index < array.length; index +=1 ){
 }
 console.log(biggerword);
 console.log(smallestword); */
-/* Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50. */
+/* Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50. 
 
 let maiorNumeroPrimo = 0;
   for(let numeroatual = 2; numeroatual <= 50; numeroatual += 1){
@@ -48,3 +48,17 @@ let maiorNumeroPrimo = 0;
   }
 }
 console.log(maiorNumeroPrimo);
+
+Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+
+let n = 5;
+let simbolo = '*';
+let result = ' ';
+for(let index = 0; index < n; index +=1) {
+  result = result + simbolo;
+};
+for(let index = 0; index < n; index +=1){
+  console.log(result);
+}; */
+
+
