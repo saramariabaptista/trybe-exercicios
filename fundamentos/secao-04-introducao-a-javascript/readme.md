@@ -14,5 +14,5 @@ Nesta seção será possível ver sobre os conteudo e Javascript e os exercicios
 - [ ] : _Operadores de atribuição._
 - [ ] : _Operadores lógicos._
 - [ ] : _Estruturas condicionais como if/else e switch/case._
--  [ ] :_Manipular arrays (listas);_
+- [ ] : _Manipular arrays (listas);_
 - [ ] : _Utilizar o comando for;_
