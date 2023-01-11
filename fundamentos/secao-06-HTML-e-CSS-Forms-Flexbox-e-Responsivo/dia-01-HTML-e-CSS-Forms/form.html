@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="title"> Sua chance de conhecer HogWarts, chegou!</h1>
+        <p class="description"> Quer receber sua carta de Hogwarts e conhecer a melhor escola de bruxaria existente? Sua oportunidade chegou! No ano de 2023, a Trybe está organizando o concurso mais esperado. Uma viagem para Londres com tudo pago para conhecer o parque temático de Hogwarts. O aluno selecionado terá direito a hospedagem, despesas inclusas e um vale para utilizar no parque de 500£ libras esterlina. Não fique de fora dessa. Para participar, preencha os dados abaixo, nos envie uma foto mostrando o quanto você é Potterhead e responda a pergunta de maneira criativa. Boa sorte!!!</p>
+    </header>
+    <form action="" method="get">
+    <label for="completeName"></label>
+    <input type="text" name="name" id="completeName" required placeholder="digite seu nome completo" min="10" max="40">
+    <label for="inputEmail"></label>
+    <input type="email" name="name" id="inputEmail" required placeholder="seuemail@email.com">
+    <label for="dateofbirth"></label>
+    <input type="date" name="dateofbirth" id="dateofbirth" required min="01-01-1940" max="01-01-2005">
+    <label for="fotopotterhead"></label>
+    <input type="file" name="foto" id="fotopotterhead">
+    <label for="casaHogwarts"></label>
+    <input type="radio" name="casadehogwarts" id="casaHogwarts">Corvinal
+    <input type="radio" name="casadehogwarts" id="casaHogwarts">Grifinória
+    <input type="radio" name="casadehogwarts" id="casaHogwarts">Lufa-Lufa
+    <input type="radio" name="casadehogwarts" id="casaHogwarts">Sonserina
+    <label for="location"></label>
+    <select name="estate" id="location">
+        <option value="null">Selecione...</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="sp">São Paulo</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="pr">Paraná</option>
+        <option value="am">Amazonas</option>
+    </select>
+    <div> 
+    <h4>Você tem direito de criar um feitiço para codar com nosso querido professor FlitWick. Como ele funcionaria e qual seria o nome?</h4>
+    <label for=""></label>
+    <textarea name=creative-answer" id="" cols="20" rows="05"></textarea></div>
+
+
+
+
+    <button type="submit">Enviar!</button>
+    </form>    
+<script src="./script.js"></script>
+</body>
+</html>
