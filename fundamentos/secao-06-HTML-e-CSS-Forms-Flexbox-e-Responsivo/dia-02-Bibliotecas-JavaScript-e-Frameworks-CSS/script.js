@@ -1,4 +1,4 @@
-const submitBtn = document.getElementsByClassName('.submit')[0];
+/* const submitBtn = document.getElementsByClassName('.submit')[0];
 submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
 })
@@ -28,4 +28,4 @@ const verifySubmit = (event) => {
       } else {
         alert('Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.');
       }
-}
+} */

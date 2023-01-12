@@ -5,46 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./files/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./files/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./files/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header><div class="form-group">
+       <!--  <img src="./files/d9384be9-345a-440e-ab44-384bfcbfbead-3492-london-warner-bros.-studios-tour-withtransport-02.avif" class="img-fluid" alt="..."> -->
         <h1 class="title display-4 text-muted"> Sua chance de conhecer HogWarts, chegou!</h1>
-        <p class="description"> Quer receber sua carta de Hogwarts e conhecer a melhor escola de bruxaria existente? Sua oportunidade chegou! No ano de 2023, a Trybe está organizando o concurso mais esperado. Uma viagem para Londres com tudo pago para conhecer o parque temático de Hogwarts. O aluno selecionado terá direito a hospedagem, despesas inclusas e um vale para utilizar no parque de 500£ libras esterlina. Não fique de fora dessa. Para participar, preencha os dados abaixo, nos envie uma foto mostrando o quanto você é Potterhead e responda a pergunta de maneira criativa. Boa sorte!!!</p>
+        <p class="description content is-normal"> Quer receber sua carta de Hogwarts e conhecer a melhor escola de bruxaria existente? Sua oportunidade chegou! No ano de 2023, a Trybe está organizando o concurso mais esperado. Uma viagem para Londres com tudo pago para conhecer o parque temático de Hogwarts. O aluno selecionado terá direito a hospedagem, despesas inclusas e um vale para utilizar no parque de 500£ libras esterlina. Não fique de fora dessa. Para participar, preencha os dados abaixo, nos envie uma foto mostrando o quanto você é Potterhead e responda a pergunta de maneira criativa. Boa sorte!!!</p>
     </header></div class="form-group">
 
-    <form action="" method="get">
+    <main><form action="" method="get">
         <fieldset>
+        <div class="row g-3">
+            <div class="col-sm-7">
 
+        <div class="form-group col-sm">
         <label for="completeName">Nome completo</label>
-        <input class="form-control" type="text" name="name" id="completeName" required placeholder="digite seu nome completo" minlength= "10" maxlength="40"></div>
+        <input class="form-control  form-control-sm" type="text" name="name" id="completeName" required placeholder="digite seu nome completo" minlength= "10" maxlength="40"></div></div>
 
-        <div class="form-group"><label for="inputEclass="form-control" mail">E-mail</label>
-        <input class="form-control" type="email" name="name" id="inputEclass="form-control" mail" required placeholder="seuemail@email.com" minlength= "10" maxlength="50"></div>
+        
+        <div class="form-group col-sm"><label for="dateofbirth">Data de Nascimento</label>
+            <input class="form-control form-control-sm" type="date" name="dateofbirth" id="dateofbirth" required max="2005-01-01"></div></div>
+            
+        <div class="form-group col-sm"><label for="inputEclass="form-control" mail">E-mail</label>
+        <input class="form-control form-control-sm" type="email" name="name" id="inputEclass="form-control" mail" required placeholder="seuemail@email.com" minlength= "10" maxlength="50"></div>
 
-        <div class="form-group"><label for="dateofbirth">Data de Nascimento</label>
-        <input class="form-control" type="date" name="dateofbirth" id="dateofbirth" required max="2005-01-01"></div>
+        <div class="form-group col-sm"><label for="fotopotterhead">Mande sua foto criativa!</label>
+        <input class="form-control form-control-sm" type="file" name="foto" id="fotopotterhead"></div>
 
-        <div class="form-group btn btn-warning"><label for="fotopotterhead">Mande sua foto criativa!</label>
-        <input class="form-control" type="file" name="foto" id="fotopotterhead"></div>
+        <h5>Qual a sua casa de Hogwarts?</h5>
+        <div class="form-check">
+        <label for="corvinal" class="form-check-label">
+            <input class="form-check-input" type="radio" name="casadehogwarts" id="corvinal">Corvinal</label>
 
-        <div class="form-group"><section class="casas">
-        <h4>Qual a sua casa de Hogwarts?</h4>
-        <label for="corvinal">
-        <input class="form-control" type="radio" name="casadehogwarts" id="corvinal">Corvinal</label>
-        <label for="grifinória">
-        <input class="form-control" type="radio" name="casadehogwarts" id="grifinória">Grifinória</label>
-        <label for="lufaLufa">
-        <input class="form-control" type="radio" name="casadehsogwarts" id="lufaLufa">Lufa Lufa</label>
-        <label for="sonserina">
-        <input class="form-control" type="radio" name="casadehogwarts" id="sonserina">Sonserina</label></section></div>
+        <label for="grifinória" class="form-check-label">
+            <input class="form-check-input" type="radio" name="casadehogwarts" id="grifinória">Grifinória</label>
+        
+        <label for="lufaLufa" class="form-check-label">
+            <input class="form-check-input" type="radio" name="casadehogwarts" id="lufaLufa">Lufa Lufa</label>
+    
+        <label for="sonserina">  
+            <input class="form-check-input" type="radio" name="casadehogwarts" id="sonserina">Sonserina</label></div>
 
-        <br>
-        <div class="form-group" class="state">
+        <div class="form-group form-check" class="state">
         <label for="location">Estado</label>
-        <select class="form-control" name="estate" id="location">
+        <select class="form-control form-control-sm" name="estate" id="location">
             <option value="null">Selecione...</option>
             <option value="rj">Rio de Janeiro</option>
             <option value="sp">São Paulo</option>
@@ -56,22 +64,23 @@
 
 
     <div class="form-group"><section class="question"> 
-    <h4>Você tem direito de criar um feitiço para codar com nosso querido professor FlitWick. Como ele funcionaria e qual seria o nome?</h4>
-    <label for="answer"></label>
-    <textarea  class="form-control" name=creative-answer" id="answer" cols="20" rows="05" maxlength="500"></textarea></section></div>
+    <label for="answer">Você tem direito de criar um feitiço para codar com nosso querido professor FlitWick. Como ele funcionaria e qual seria o nome?</label>
+    <textarea  class="form-control form-control-sm textarea is-danger" name=creative-answer" id="answer" cols="20" rows="05" maxlength="500"></textarea></section></div>
 
-    <div class="form-group"><input class="form-control" type="checkbox" name="choosenotfications" id="ofertaTrybe">
-    <label for="ofertaTrybe">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label></div>
+    <div class="form-group">
+        <label for="ofertaTrybe">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label></div>
+        <input  type="checkbox" name="choosenotfications" id="ofertaTrybe">
 
 
     <br>
-    <div class="form-group"><input class="form-control" type="radio" name="choosenotfications" id="ofertaTrybe" requires checked>
-    <label for="ofertaTrybe">Concordo que imagens das minhas férias poderão ser usadas na div class="form-group"ulgação de concursos futuros.</label></div >
-    <br>
+    <div class="form-group">
+    <input type="radio" name="choosenotfications" id="ofertaTrybe" requires checked></div>
+    <label for="ofertaTrybe">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    
 
-    ><button type="submit" class="submit btn btn-success">Enviar!</button>
-    <button type="reset">Reset!</button>
-    </fieldset></form>    
+    <button type="submit" class="submit btn btn-success">Enviar!</button>
+    <button type="reset" class="button is-danger">Reset!</button>
+    </fieldset></form></main>
 <script src="./script.js"></script>
 </body>
 </html>
