@@ -69,4 +69,16 @@ const verifyAges = (array, age) => {
   console.log(verifyAges(people, 18));
   console.log(verifyAges(people, 14));
 
-  
+// recapitulando 
+
+  const pessoas = [
+    { nome: 'Joana', idade: 37 },
+    { nome: 'Ana', idade: 25 },
+    { nome: 'João', idade: 32 },
+    { nome: 'Aline', idade: 28 },
+  ];
+
+  // foreEach não tem retorno e não espera retorno 
+  const peopleNames = pessoas.forEach((element) => {console.log(element.nome)});
+
+  //
