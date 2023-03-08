@@ -7,6 +7,5 @@ Seu requisitos são:
 
 1. Criar Portfólio Web
 2. Hospedar o Portfólio Web no GitHub Pages.
-Crie um novo diretório onde você vai desenvolver o seu portfólio.
 3. Criar um arquivo index.html;
 4. Utilizar a extensão Live Server no 'VSCODE' para visualização.
